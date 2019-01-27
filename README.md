@@ -33,3 +33,10 @@ java -jar credit-agricole-ofx-fix-1.1.jar -f ~/Downloads/CAYYYMMDD_NUM.ofx -o fi
 ```
 
 Then use the fixed version (`fixed.ofx`).
+
+### Dependencies
+
+This projects relies on two Apache License 2.0 Software which are embedded in the prebuilt version:
+
+- Apache Commons CLI by Apache Software Foundation (https://github.com/apache/commons-cli/blob/master/LICENSE.txt)
+- OFX4J by Web Cohesion (http://www.webcohesion.com) (https://github.com/stoicflame/ofx4j/blob/master/LICENSE)

@@ -6,3 +6,19 @@ Starting 2019, some Crédit Agricole subsidiaries Websites were updated to a new
 
 * Crédit Agricole Ile de France
 * BforBank (from what I can read, not tested)
+
+## How to Build
+
+```bash
+./gradlew build
+```
+
+## How to use
+
+Instead of directly using `CAYYYYMMDD_NUM.ofx` file downloaded from the CA Website, save it locally and fix it.
+
+```bash
+java -jar build/libs/credit-agricole-ofx-fix-1.0-SNAPSHOT.jar -f ~/Downloads/CAYYYMMDD_NUM.ofx -o fixed.ofx
+```
+
+Then use the fixed version (`fixed.ofx`).

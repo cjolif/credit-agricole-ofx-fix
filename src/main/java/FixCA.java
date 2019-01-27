@@ -57,6 +57,9 @@ public class FixCA {
             // new CA IDX OFX missing FITID, building one from the hashes of the transaction parameters
             int hash = Objects.hash(transaction.getDatePosted(), transaction.getAmount(), transaction.getName());
             transaction.setId(Integer.toString(hash));
+            if (transaction.getMemo() == null) {
+              transaction.setMemo("AUTRE");
+            }
           });
         }
       }

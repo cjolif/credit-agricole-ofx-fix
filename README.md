@@ -16,20 +16,20 @@ Starting 2019, some Crédit Agricole subsidiaries Websites were updated to a new
 Instead of directly using `CAYYYYMMDD_NUM.ofx` file downloaded from the CA Website, save it locally and fix it.
 
 ```bash
-java -jar build/libs/credit-agricole-ofx-fix-1.1-SNAPSHOT.jar -f ~/Downloads/CAYYYMMDD_NUM.ofx -o fixed.ofx
+java -jar build/libs/credit-agricole-ofx-fix-1.2-SNAPSHOT.jar -f ~/Downloads/CAYYYMMDD_NUM.ofx -o fixed.ofx
 ```
 
 Then use the fixed version (`fixed.ofx`).
 
 ## Using pre-built version
 
-Download the [credit-agricole-ofx-fix-1.0.jar](https://github.com/cjolif/credit-agricole-ofx-fix/releases/download/1.0.0/credit-agricole-ofx-fix-1.0.jar).
+Download the [credit-agricole-ofx-fix-1.1.jar](https://github.com/cjolif/credit-agricole-ofx-fix/releases/download/1.1.0/credit-agricole-ofx-fix-1.1.jar).
 
 
 Instead of directly using `CAYYYYMMDD_NUM.ofx` file downloaded from the CA Website, save it locally and fix it.
 
 ```bash
-java -jar credit-agricole-ofx-fix-1.0.jar -f ~/Downloads/CAYYYMMDD_NUM.ofx -o fixed.ofx
+java -jar credit-agricole-ofx-fix-1.1.jar -f ~/Downloads/CAYYYMMDD_NUM.ofx -o fixed.ofx
 ```
 
 Then use the fixed version (`fixed.ofx`).
